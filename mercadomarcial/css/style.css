@@ -1,0 +1,264 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+body{
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    margin: auto;
+    color: #000;
+    
+}
+
+#main-header h1{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFE800;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px; 
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 38px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#main-header .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#boton-ingreso{
+    background-color: #000;
+}
+
+
+#barra-nav{
+    background-color: #000;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.bg-dark {
+    background-color: #000!important;
+}
+
+.btn-dark{
+    background-color: #000;
+    border-color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.btn-outline-success{
+    color: white;
+    border-color:black;
+}
+
+.btn-outline-success:hover{
+    background-color: black;
+    border-color: black;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active{
+    background-color: black;
+    border-color: #000;
+}
+
+.btn-outline-success:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 1);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 1);
+}
+
+.card{
+    border: 0;
+    width: 100%;
+}
+.card-img{
+    border-radius: 0;
+}
+#cardfotos img{
+    height: 325px;
+}
+
+figure{
+    margin: 0;
+}
+
+figure.col-sm-4{
+    padding: 0%;
+}
+
+.col-sm-4{
+    padding: 0%;
+}
+
+.row{
+    margin: 0;
+}
+
+/*
+.opacidad{
+    background-color: #FFE800;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+*/
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mini-galeria .container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mini-galeria p{
+    border: 1px solid;
+    border-color: rgb(161, 157, 157);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+#galeria-venta p{
+    border: 1px solid;
+    border-color: rgb(161, 157, 157);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#nivel2 .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#pie-pagina{
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+#pie-pagina .list-group-item {
+    background-color: #000000;
+    border: #000000;
+}
+
+.list-group-item-action{
+    color: white;
+}
+
+.list-group-item-action:hover{
+    color: #FFE800;
+}
+
+.list-group-item-action:focus{
+    color: #FFE800;
+}
+
+#nav-vertical{
+    padding-right: 200px;
+}
+
+
+
+#galeria-venta{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#galeria-venta .card{
+    margin-bottom: 30px;
+}
+
+@media (max-width:992px){
+    #helio-kimura .container .row{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:992px){
+    #torneo .container .row{
+        flex-direction: column-reverse;
+    }
+}
+
+#kano-maeda .container{
+    margin-bottom: 50px;
+}
+
+#galeria-segunda-mano .card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#galeria-segunda-mano h2{
+    margin-top: 10px;
+}
+
+#galeria-venta h2{
+    margin-top: 10px;
+}
+
+ #contenido{
+    
+    margin: 0 auto;
+    
+}
+
+.margen{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#seccion-ayuda{
+    margin-top: 20px;
+}
+
+.enlace{
+    margin-bottom: 40px;
+}
+
+#arreglo-fotos figure figcaption{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color: rgba(255, 232, 0, 0.7);
+	display:none;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#arreglo-fotos figure{
+    position: relative;
+    width: 100%;
+}
+
+#blog h2{
+    width: 100px;
+}
+
+#lineasventa figure{
+    position:absolute;
+}
+

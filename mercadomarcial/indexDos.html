@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style2.css">
+    
+
+    <title>VAMOS A ELLO</title>
+  </head>
+  <body>
+    
+    <div class="container">
+        <form id="agregarAlCarrito">
+            <h4>AGREGAR AL CARRITO</h4>
+                <label id="codigo">
+
+                </label>
+                <div class="form-group">
+                    <label>Cantidad</label>
+                    <select class="form-control" id="cantidadAgregar">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-hide">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group form-hide">
+                    <input type="text" class="form-control" id="precio" placeholder="Precio" required>
+                </div>
+                <div class="form-group form-hide">
+                    <input type="text" class="form-control" id="imagen" placeholder="Url imagen" required>
+                </div>
+
+                <button type="submit" class="btn btn-dark">Agregar</button>
+        </form>
+        <form id="editarCarrito">
+            <h4>EDITAR CARRITO</h4>
+            <label id="codigoFk">
+
+            </label>
+            <div class="form-group">
+                <label>Cantidad</label>
+                <select class="form-control" id="cantidadEditar">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-dark" id="btnEditar">Editar</button>
+            <button type="button" class="btn btn-dark" id="btnRemover">Remover</button>
+        </form>
+    </div>
+
+            <div class="container-fluid">
+                    
+                <div class="row">
+
+                    <div class="col-7">
+                        <h3>TABLA DE PRODUCTOS</h3>
+                        <table id="tProductos" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Imagen</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="col-5">
+                            <h3>TABLA DE PRODUCTOS DEL CARRITO</h3>
+                        <table id="tProductosCarrito" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Imagen</th>                 
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--html por jquery-->
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/second.js"></script>
+  </body>
+</html>

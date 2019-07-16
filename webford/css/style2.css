@@ -1,0 +1,187 @@
+html {
+    font-size: 1rem;
+  }
+
+body{
+    max-width: 100%;
+}
+
+.col-3{
+    padding: 0%;
+}
+
+.row{
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedor{
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    max-width: 1440px; /* 2 */
+    
+}
+
+nav.navbar{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+nav.navbar{
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+#logo-principal img{
+    width: 80px !important;
+    height: auto;
+}
+
+.logo img{
+    width: 40px !important;
+    height: auto;
+}
+
+#menu-secundario a.navbar-brand{
+    margin-right: 5px;
+    margin-left: 15px;
+    padding: 0%;
+}
+
+/*#carouselExampleIndicators .carousel-caption{
+    margin-bottom: 310px;
+    text-align: start;
+}*/
+
+.container a{
+    /*margin-right: 80px;*/ 
+    margin-top: 0px;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#cartelera.container-fluid{
+    position: relative;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: auto;
+  }
+
+.boton-sobrepuesto{
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.texto-sobrepuesto1{
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#cartelera2.container-fluid{
+    position: relative;
+    color: white;
+}
+
+.texto-sobrepuesto2{
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  #cartelera3.container-fluid{
+    position: relative;
+    color: white;
+}
+
+.texto-sobrepuesto3{
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .boton-sobrepuesto2{
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  #galeria-principal .container-fluid{
+      margin: 0%;
+  }
+
+  #galeria-principal .col-sm-6{
+      padding: 0%;
+  }
+
+  #galeria-principal .col-6{
+      padding: 0%;
+  }
+
+  #airbag .row{
+      padding-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  #airbag .boton-airbag{
+      margin-top: 40px;
+  }
+
+  #airbag .px-4{
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+      border-radius: 0%;
+  }
+
+  .envoltura{
+      max-width: 100%;
+      padding: 25px;
+  }
+
+  table{
+      border: 0% !important;
+      border-collapse: unset;
+  }
+
+  .table td{
+      padding: 0px;
+      border: 0px;
+  }
+
+  .table thead th{
+      border: 0px;
+  }
+
+  .table th{
+      padding: 0%;
+  }
+
+  #redes-sociales .navbar-brand{
+      width: 40px;
+  }
